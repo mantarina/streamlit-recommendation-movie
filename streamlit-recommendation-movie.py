@@ -19,7 +19,7 @@ with header:
 with col1:
 	st.write("")
 with col2:
-	st.image('https://raw.githubusercontent.com/PaulBoissiere/projet_netflix/master/imdb.svg.png') 
+	st.image('./IMBD_logo.png') 
 with col3:
 	st.write("")
 
