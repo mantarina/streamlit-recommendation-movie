@@ -1,7 +1,7 @@
 import pandas as pd 
 import numpy as np 
 import streamlit as st
-from sklearn.neighbors import KNeighborsClassifier, NearestNeighbors
+from sklearn.neighbors import NearestNeighbors
 from sklearn.preprocessing import StandardScaler
 
 
