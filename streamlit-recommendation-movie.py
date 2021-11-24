@@ -19,7 +19,7 @@ with header:
 with col1:
 	st.write("")
 with col2:
-	st.image('./IMBD_logo.png') 
+	st.image('./imdb_logo.svg.png') 
 with col3:
 	st.write("")
 
