@@ -19,13 +19,13 @@ with header:
 with col1:
 	st.write("")
 with col2:
-	st.image('https://raw.githubusercontent.com/PaulBoissiere/projet_netflix/master/imdb.svg.png') #/Users/Paul/Desktop/projet_netflix
+	st.image('https://raw.githubusercontent.com/PaulBoissiere/projet_netflix/master/imdb.svg.png') 
 with col3:
 	st.write("")
 
 
 with dataset : 
-	df_knn = pd.read_csv('https://raw.githubusercontent.com/PaulBoissiere/projet_netflix/master/df_final_knn_3.csv', index_col = 'Unnamed: 0') #/Users/Paul/Desktop/projet_netflix
+	df_knn = pd.read_csv('./df_knn_streamlit.csv') 
 	#st.write(df_knn.head())
 
 with recommandation_movie :
